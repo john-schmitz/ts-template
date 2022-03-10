@@ -1,4 +1,4 @@
-import { Sum } from '../src/sum'
+import { Sum } from '@/sum'
 
 const makeSut = (): Sum => {
   return new Sum()
@@ -9,5 +9,11 @@ describe('Sum', () => {
     const sut = makeSut()
     const result = sut.execute(1, 2, 3)
     expect(result).toBe(6)
+  })
+
+  it('allows negative numbers three numbers together', () => {
+    const sut = makeSut()
+    const result = sut.execute(-1, -2, 3)
+    expect(result).toBe(0)
   })
 })
