@@ -16,4 +16,10 @@ describe('Sum', () => {
     const result = sut.execute(-1, -2, 3)
     expect(result).toBe(0)
   })
+
+  it('allows both negative and positive numbers to be added together', () => {
+    const sut = makeSut()
+    const result = sut.execute(1, 2, 3, -4)
+    expect(result).toBe(2)
+  })
 })
