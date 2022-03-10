@@ -1,0 +1,27 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "A simple typescript template for bootstrapping applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-schmitz/ts-template.git"
+  },
+  "keywords": [
+    "template",
+    " "
+  ],
+  "author": "John Schmitz Bretas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-schmitz/ts-template/issues"
+  },
+  "homepage": "https://github.com/john-schmitz/ts-template#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1",
+    "typescript": "^4.6.2"
+  }
+}
