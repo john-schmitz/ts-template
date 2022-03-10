@@ -1,0 +1,3 @@
+{
+  "*.ts": "npx ts-standard --fix"
+}
