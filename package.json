@@ -4,7 +4,8 @@
   "description": "A simple typescript template for bootstrapping applications.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx ts-standard 'src/**' --fix"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/john-schmitz/ts-template#readme",
   "devDependencies": {
     "git-commit-msg-linter": "^4.1.1",
+    "ts-standard": "^11.0.0",
     "typescript": "^4.6.2"
   }
 }
