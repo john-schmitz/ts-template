@@ -9,7 +9,7 @@
     "clean": "rimraf dist",
     "build": "npm run clean && tsc -p tsconfig-build.json",
     "lint": "ts-standard 'src/**' --fix",
-    "prepare": "husky install",
+    "prepare": "husky install && git init && node node_modules/git-commit-msg-linter/install.js",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm t -- --watch",
     "test:staged": "npm t -- --findRelatedTests",
